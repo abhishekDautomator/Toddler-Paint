@@ -69,5 +69,63 @@ export const COLORING_PAGES: ColoringPageData[] = [
       { id: 'nose', d: 'M250 270 m -10, 0 a 10,8 0 1,0 20,0 a 10,8 0 1,0 -20,0', label: 'Nose' },
     ],
   },
+  {
+    id: 'rocket',
+    name: 'Rocket Ship',
+    areas: [
+      { id: 'body', d: 'M250 100 Q 350 250 300 450 L 200 450 Q 150 250 250 100 Z', label: 'Rocket Body' },
+      { id: 'nose', d: 'M250 100 L 280 150 L 220 150 Z', label: 'Nose Cone' },
+      { id: 'window', d: 'M250 220 m -30, 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0', label: 'Window' },
+      { id: 'fin-l', d: 'M210 350 L 150 450 L 210 450 Z', label: 'Left Fin' },
+      { id: 'fin-r', d: 'M290 350 L 350 450 L 290 450 Z', label: 'Right Fin' },
+      { id: 'fire-1', d: 'M220 450 L 250 500 L 280 450 Z', label: 'Booster' },
+    ],
+  },
+  {
+    id: 'boat',
+    name: 'Sailing Boat',
+    areas: [
+      { id: 'hull', d: 'M100 350 L 400 350 L 350 420 L 150 420 Z', label: 'Boat Hull' },
+      { id: 'mast', d: 'M240 350 L 240 100 L 260 100 L 260 350 Z', label: 'Mast' },
+      { id: 'sail', d: 'M260 120 L 400 320 L 260 320 Z', label: 'Sail' },
+      { id: 'flag', d: 'M260 100 L 300 115 L 260 130 Z', label: 'Flag' },
+      { id: 'water-1', d: 'M50 420 Q 100 450 150 420 Q 200 390 250 420 Q 300 450 350 420 Q 400 390 450 420', label: 'Water' },
+    ],
+  },
+  {
+    id: 'car',
+    name: 'Racing Car',
+    areas: [
+      { id: 'body', d: 'M100 350 L 100 300 Q 150 250 250 250 L 350 250 Q 400 250 400 300 L 400 350 Z', label: 'Car Body' },
+      { id: 'window', d: 'M180 280 L 250 280 L 250 320 L 180 320 Z', label: 'Window' },
+      { id: 'wheel-l', d: 'M150 350 m -40, 0 a 40,40 0 1,0 80,0 a 40,40 0 1,0 -80,0', label: 'Front Wheel' },
+      { id: 'wheel-r', d: 'M350 350 m -40, 0 a 40,40 0 1,0 80,0 a 40,40 0 1,0 -80,0', label: 'Back Wheel' },
+      { id: 'stripe', d: 'M100 320 L 400 320 L 400 330 L 100 330 Z', label: 'Racing Stripe' },
+    ],
+  },
+  {
+    id: 'tree',
+    name: 'Happy Tree',
+    areas: [
+      { id: 'trunk', d: 'M230 450 L 270 450 L 260 300 L 240 300 Z', label: 'Trunk' },
+      { id: 'leaves-bot', d: 'M150 350 Q 250 280 350 350 Q 380 380 350 410 Q 250 440 150 410 Q 120 380 150 350 Z', label: 'Bottom Leaves' },
+      { id: 'leaves-mid', d: 'M180 250 Q 250 180 320 250 Q 350 280 320 310 Q 250 340 180 310 Q 150 280 180 250 Z', label: 'Middle Leaves' },
+      { id: 'leaves-top', d: 'M200 150 Q 250 80 300 150 Q 330 180 300 210 Q 250 240 200 210 Q 170 180 200 150 Z', label: 'Top Leaves' },
+      { id: 'apple-1', d: 'M220 220 m -10, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0', label: 'Apple' },
+      { id: 'apple-2', d: 'M280 320 m -10, 0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0', label: 'Apple' },
+    ],
+  },
+  {
+    id: 'balloon',
+    name: 'Hot Air Balloon',
+    areas: [
+      { id: 'envelope', d: 'M250 80 C 350 80, 400 200, 250 350 C 100 200, 150 80, 250 80 Z', label: 'Balloon' },
+      { id: 'stripe-1', d: 'M180 150 Q 250 120 320 150 L 310 200 Q 250 170 190 200 Z', label: 'Stripe 1' },
+      { id: 'stripe-2', d: 'M195 240 Q 250 210 305 240 L 290 280 Q 250 250 210 280 Z', label: 'Stripe 2' },
+      { id: 'basket', d: 'M220 380 L 280 380 L 270 430 L 230 430 Z', label: 'Basket' },
+      { id: 'rope-l', d: 'M225 355 L 225 380', label: 'Rope' },
+      { id: 'rope-r', d: 'M275 355 L 275 380', label: 'Rope' },
+    ],
+  },
 ];
 

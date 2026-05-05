@@ -10,7 +10,10 @@ interface PaletteProps {
 
 export const Palette: React.FC<PaletteProps> = ({ selectedColor, onSelectColor }) => {
   return (
-    <div id="palette-grid" className="grid grid-cols-3 gap-2">
+    <div 
+      id="palette-grid" 
+      className="flex md:grid md:grid-cols-3 gap-2 px-2 md:px-0"
+    >
       {COLORS.map((color) => {
         // Darken the border color slightly for the "chunky" effect
         const borderBottomColor = color.value === '#FFFFFF' ? '#E6E2D3' : 'rgba(0,0,0,0.1)';
@@ -22,7 +25,7 @@ export const Palette: React.FC<PaletteProps> = ({ selectedColor, onSelectColor }
             whileHover={{ y: 1 }}
             whileTap={{ y: 2 }}
             onClick={() => onSelectColor(color.value)}
-            className={`aspect-square rounded-xl cursor-pointer transition-all border-b-4 relative flex items-center justify-center ${
+            className={`w-12 h-12 md:w-full aspect-square flex-shrink-0 rounded-xl cursor-pointer transition-all border-b-4 relative flex items-center justify-center ${
               selectedColor === color.value ? 'ring-2 ring-black ring-inset' : ''
             }`}
             style={{ 
