@@ -10,7 +10,7 @@ interface ColoringCanvasProps {
 
 export const ColoringCanvas: React.FC<ColoringCanvasProps> = ({ page, areaColors, onColorArea }) => {
   return (
-    <div id="canvas-wrapper" className="relative w-full h-full bg-white rounded-3xl border-8 border-[#E6E2D3] shadow-inner flex items-center justify-center p-4 md:p-8 overflow-hidden">
+    <div id="canvas-wrapper" className="relative w-full h-full bg-white rounded-2xl md:rounded-3xl border-4 md:border-8 border-[#E6E2D3] shadow-inner flex items-center justify-center p-2 md:p-6 overflow-hidden">
       <svg
         viewBox="0 0 500 500"
         className="w-full h-full object-contain"

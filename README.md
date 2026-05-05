@@ -6,8 +6,6 @@
 
 This contains everything you need to run your app locally.
 
-Access the application via: https://abhishekdautomator.github.io/Toddler-Paint/
-
 View your app in AI Studio: https://ai.studio/apps/4bbb916a-7b6a-47bd-9247-44bf9ec9b961
 
 ## Run Locally
