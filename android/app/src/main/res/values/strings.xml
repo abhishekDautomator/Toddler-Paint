@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Toddler Color Magic</string>
+    <string name="title_activity_main">Toddler Color Magic</string>
+    <string name="package_name">com.abhishek.toddlerpaint</string>
+    <string name="custom_url_scheme">com.abhishek.toddlerpaint</string>
+</resources>

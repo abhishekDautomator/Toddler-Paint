@@ -128,4 +128,3 @@ export const COLORING_PAGES: ColoringPageData[] = [
     ],
   },
 ];
-

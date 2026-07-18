@@ -1,14 +1,9 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Palette } from './components/Palette';
 import { ColoringCanvas } from './components/ColoringCanvas';
 import { COLORING_PAGES, COLORS } from './constants';
-import { Eraser, RotateCcw, ImageIcon, Heart, Sparkles } from 'lucide-react';
+import { Eraser, RotateCcw, ImageIcon, Heart } from 'lucide-react';
 
 export default function App() {
   const [currentPageIndex, setCurrentPageIndex] = useState(() => {
@@ -219,6 +214,5 @@ export default function App() {
         </div>
       </footer>
     </div>
-
   );
 }
